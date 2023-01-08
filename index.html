@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Конвертор валют</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="title">Конвертор валют</h1>
+        <h2 class="categories">Выберете валюту</h2>
+        <form class="convert-form">
+            <div class="form__data">
+                Введите сумму в тенге <input type="text" placeholder="KZT">
+            </div>
+            <div class="form__current">
+                Доллар США: <input type="checkbox" name="USD" id="usd" class="form__checkbox">
+                Евро: <input type="checkbox" name="EUR" id="eur" class="form__checkbox">
+                Фунт стерлинг: <input type="checkbox" name="GBP" id="gbp" class="form__checkbox">
+            </div>
+            <button class="form__btn">Подсчитать</button>
+        </form>
+        <div class="result">NONE</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
